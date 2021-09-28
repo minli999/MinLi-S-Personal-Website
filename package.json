@@ -23,7 +23,9 @@
   },
   "description": "personal website for Min",
   "main": "app.js",
-  "devDependencies": {},
+  "devDependencies": {
+    "typescript": "^4.4.3"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ElvisLi999/MinLi-S-Personal-Website.git"
