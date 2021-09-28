@@ -22,7 +22,7 @@
     "popper.js": "^1.16.1"
   },
   "description": "personal website for Min",
-  "main": "app.js",
+  "main": "server.js",
   "devDependencies": {
     "typescript": "^4.4.3"
   },
