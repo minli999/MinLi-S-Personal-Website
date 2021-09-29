@@ -1,1 +1,5 @@
 /* Custom css goes here */
+.navbar-brand {
+    width:80px;
+    height:80px;
+}
