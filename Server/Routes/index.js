@@ -30,5 +30,9 @@ router.get('/services', function (req, res, next) {
 router.get('/contact', function (req, res, next) {
     res.render('index', { title: 'Contact Us', page: 'contact' });
 });
+/* GET Resume page. */
+router.get('/resume', function (req, res, next) {
+    res.render('index', { title: 'Resume', page: 'resume' });
+});
 module.exports = router;
 //# sourceMappingURL=index.js.map
