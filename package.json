@@ -19,7 +19,8 @@
     "http-errors": "~1.6.3",
     "jquery": "^3.6.0",
     "morgan": "~1.9.1",
-    "popper.js": "^1.16.1"
+    "popper.js": "^1.16.1",
+    "typed.js": "^2.0.12"
   },
   "devDependencies": {
     "@types/bootstrap": "^5.1.6",
