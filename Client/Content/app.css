@@ -1,4 +1,13 @@
-/* Custom css goes here */
+/* 
+   Author: Min Li
+   Student ID: 301130589
+   Date: Sept 25, 2021 
+
+   Filename: app.css
+*/
+
+
+/* Custom css */
 
 /*logo*/
 .navbar-brand {
@@ -7,16 +16,10 @@
 }
 
 
- 
+/*content*/ 
   body {
     background: #297aa3;
   }
-
- /*
- h1{
-    color: rgb(255, 255, 255);
- }
- */
 
  h1 {
    font-family:  "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
@@ -43,6 +46,7 @@
    text-indent: 30px;
  }
 
+ /*buttom of learn more on home page*/
  .btnhome {
   background-color:#003366;
   display: inline-block;
@@ -58,7 +62,99 @@
   margin: 5px;
  }
 
+ /* personal pic float with paragrah on about page*/
  .p-5 img{
    float: left;
    
  }
+
+ /* css set for contact.ejs */
+ article {
+  font-family:  "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  color: #336699;
+  width: 960px;
+  text-align: left;
+  background: ivory;
+  padding: 20px;
+}
+
+form {
+  padding: 10px;
+  margin:0px auto;
+}
+
+fieldset {
+  margin-bottom: 10px;
+  position: relative;
+  padding: 2.5em 1em 0.5em 1em;
+  width: 50%;
+  margin:0px auto;
+  float:none;
+}
+
+input {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: #336699;
+  font-size: 0.8em;
+}
+
+
+#registerinfo, #buttons {
+  border: none;
+}
+
+#registerinfo label {
+  display: block;
+  float: left;
+  clear: left;
+  margin-top: 5px;
+}
+
+#registerinfo input {
+  display: block;
+  margin-left: 130px;
+}
+
+
+#fstnameipt, #lstnameipt, #phnumipt, #emailipt {
+  width: 15em;
+}
+
+#sendBtn, #clearBtn {
+  font-family:  "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  background-color:#003366;
+  display: inline-block;
+  border-radius: 4px;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 20px;
+  padding: 10px;
+  width: 150px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+#btnhome1 {
+  font-family:  "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  background-color:#003366;
+  display: inline-block;
+  border-radius: 4px;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 15px;
+  padding: 10px;
+  width: 150px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 10px;
+}
+
+#buttons {
+  background: inherit;
+  border: none;
+  padding: 1em 0 0 0;
+  text-align: center;
+}

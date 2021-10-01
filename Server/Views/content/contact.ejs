@@ -1,3 +1,29 @@
 <div class="container">
-        <h1>Welcome to the <strong><%= title %></strong> page</h1>
+        <br><br><br><br>
+        <h1>Welcome to the <strong><%= title %></strong> page</h1><br><br><br><br>
 </div>
+<!-- Contact infor input set -->
+<center>
+        <article class="p-5 mb-4 bg-light rounded-3">
+        <form>
+                <button id="btnhome1"onclick="location.href='/home'" type="button">Back to Home Page</button>
+                <fieldset id="registerinfo">
+                <legend>You can leave me a message here:</legend>
+                <label for="fstnameipt">First Name: </label>
+                <input type="text" id="fstnameipt" name="fstname" />
+                <label for="lstnameipt">Last Name: </label>
+                <input type="text" id="lstnameipt" name="lstname" />
+                <label for="phnumipt">Phone Number: </label>
+                <input type="text" id="phnumipt" name="phnumber" />
+                <label for="emailipt">Email: </label>
+                <input type="text" id="emailipt" name="email" />
+                <label for="msginput">Leave Me a Message: </label>
+                <input type="text" id="msginput" name="email" />
+                </fieldset>
+                <fieldset id="buttons">
+                <input type="submit" id="sendBtn" value="Send Now" />
+                <input type="submit" id="clearBtn" value="Clear Form" />
+                </fieldset>
+        </form>
+        </article>
+   </center>
