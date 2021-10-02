@@ -99,18 +99,18 @@ input {
 }
 
 
-#registerinfo, #buttons {
+#sendinfo, #buttons {
   border: none;
 }
 
-#registerinfo label {
+#sendinfo label {
   display: block;
   float: left;
   clear: left;
   margin-top: 5px;
 }
 
-#registerinfo input {
+#sendinfo input {
   display: block;
   margin-left: 130px;
 }

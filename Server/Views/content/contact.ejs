@@ -9,8 +9,12 @@
                 <article class="p-5 mb-4 bg-light rounded-3">
                 <form>
                         <button id="btnhome1"onclick="location.href='/home'" type="button">Back to Home Page</button>
-                        <fieldset id="registerinfo">
+                        <fieldset id="sendinfo">
                         <legend>You can leave me a message here:</legend>
+                        <!-- err message field -->
+                        <div id="errMsg"></div>
+                        <div id="errEmail"></div>
+
                         <label for="fstnameipt">First Name: </label>
                         <input type="text" id="fstnameipt" name="fstname" />
                         <label for="lstnameipt">Last Name: </label>
