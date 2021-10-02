@@ -30,7 +30,7 @@ router.get('/services', function(req, res, next) {
 
 /* GET Contact Us page. */
 router.get('/contact', function(req, res, next) {
-  res.render('index', { title: 'Contact Us', page: 'contact' });
+  res.render('index', { title: 'Contact Me', page: 'contact' });
 });
 
 /* GET Resume page. */
